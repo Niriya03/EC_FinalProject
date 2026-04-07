@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        AWS_REGION = 'us-east-1'
+        AWS_REGION = 'us-east-2'
         ECR_REPO = '187135693313.dkr.ecr.us-east-2.amazonaws.com/finalproject'
         IMAGE_TAG = "latest"
         CLUSTER_NAME = 'your-ecs-cluster'
