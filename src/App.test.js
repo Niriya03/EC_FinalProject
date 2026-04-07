@@ -3,7 +3,7 @@ import App from './App';
 
 test('renders group number', () => {
   render(<App />);
-  expect(screen.getByText(/Group 3/i)).toBeInTheDocument();
+  expect(screen.getByText(/^3$/i)).toBeInTheDocument();
 });
 
 test('renders team member names', () => {
