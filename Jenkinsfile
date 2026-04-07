@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = 'us-east-1'
-        ECR_REPO = '187135693313.dkr.ecr.us-east-1.amazonaws.com/EC_FinalProject'
+        ECR_REPO = '187135693313.dkr.ecr.us-east-2.amazonaws.com/finalproject'
         IMAGE_TAG = "latest"
         CLUSTER_NAME = 'your-ecs-cluster'
         SERVICE_NAME = 'your-ecs-service'

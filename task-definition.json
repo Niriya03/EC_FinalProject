@@ -7,7 +7,7 @@
   "containerDefinitions": [
     {
       "name": "EC_FinalProject-container",
-      "image": "187135693313.dkr.ecr.us-east-1.amazonaws.com/EC_FinalProject:latest",
+      "image": "187135693313.dkr.ecr.us-east-2.amazonaws.com/finalproject:latest",
       "portMappings": [
         {
           "containerPort": 80,
