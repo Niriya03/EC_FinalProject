@@ -5,8 +5,8 @@ pipeline {
         AWS_REGION = 'us-east-2'
         ECR_REPO = '187135693313.dkr.ecr.us-east-2.amazonaws.com/finalproject'
         IMAGE_TAG = "latest"
-        CLUSTER_NAME = 'your-ecs-cluster'
-        SERVICE_NAME = 'your-ecs-service'
+        CLUSTER_NAME = 'EC_FinalProject-cluster'
+        SERVICE_NAME = 'EC_FinalProject-service'
         TASK_FAMILY = 'EC_FinalProject-task'
     }
 
