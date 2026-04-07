@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.page {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 3rem 3.5rem;
+  max-width: 560px;
+  width: 100%;
+  text-align: center;
+  backdrop-filter: blur(12px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.badge {
+  display: inline-block;
+  background: rgba(99, 179, 237, 0.15);
+  border: 0.5px solid rgba(99, 179, 237, 0.4);
+  color: #90cdf4;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 100px;
+  margin-bottom: 1.5rem;
+}
+
+.group-number {
+  font-size: 72px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+  letter-spacing: -2px;
+}
+
+.group-label {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.divider {
+  height: 0.5px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 auto 2rem;
+  width: 60%;
+}
+
+.team-label {
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.35);
+  margin-bottom: 1.25rem;
+}
+
+.members {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.member {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 0.5px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 14px 18px;
+  text-align: left;
+}
+
+.avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.avatar-1 { background: rgba(99, 179, 237, 0.2); color: #90cdf4; }
+.avatar-2 { background: rgba(154, 117, 234, 0.2); color: #c4b5fd; }
+
+.member-name {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.footer {
+  margin-top: 2.5rem;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.2);
+  letter-spacing: 0.05em;
 }
